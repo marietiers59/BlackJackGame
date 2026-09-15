@@ -1,10 +1,14 @@
 package blackjack.model;
 
+import blackjack.model.Deck;
 import blackjack.model.Suit;
 import blackjack.model.Value;
 
 @SuppressWarnings("unused")
 public class Card {
+	
+	private Suit suit;
+	private Value value;
 
 	@SuppressWarnings("unused")
 	private boolean isFaceUp() {
@@ -17,18 +21,16 @@ public class Card {
 	}
 	
 	public Value getValue() {
-		//TODO
-		return null; //changer null
+		return value;
 	};
 	
 	public int getNumericalValue() {
-		//TODO
-		return 0; //changer 0
+		int valeur = getNumericalValue();
+		return valeur;
 	}
 	
 	public Suit getSuit() {
-		//TODO
-		return null; //changer null
+		return suit; //changer null
 	}
 	
 	public void flip() {
