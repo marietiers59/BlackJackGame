@@ -1,5 +1,9 @@
 package blackjack.model;
 
+import blackjack.model.Suit;
+import blackjack.model.Value;
+
+@SuppressWarnings("unused")
 public class Card {
 
 	@SuppressWarnings("unused")

@@ -15,20 +15,4 @@ public class House {
 		//TODO
 	}
 	
-	public void win() {
-		//TODO
-	}
-	
-	public void push() {
-		//TODO
-	}
-	
-	public void lose() {
-		//TODO
-	}
-	
-	public void bust() {
-		//TODO
-	}
-
 }
