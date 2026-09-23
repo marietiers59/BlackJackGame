@@ -35,7 +35,7 @@ public class BlackJackGame {
 		return false; //changer false ?
 	}
 	
-	private void playersTurn() {
+	private void whosePlayerTurn() {
 		//TODO
 	}
 }
