@@ -13,4 +13,29 @@ public class BlackJackGame {
 	public void play() {
 		//TODO
 	}
+	
+	private void startGame() {
+		//TODO
+	}
+	
+	private void showHand() {
+		//TODO
+	}
+	
+	private void loses() {
+		//TODO
+	}
+	
+	private void endGame() {
+		//TODO
+	}
+	
+	private boolean wins() {
+		//TODO
+		return false; //changer false ?
+	}
+	
+	private void playersTurn() {
+		//TODO
+	}
 }
