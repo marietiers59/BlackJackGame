@@ -1,5 +1,8 @@
 package blackjack.model;
 
+/**
+ * 
+ */
 public enum Value {
 	
 	ACE(1),
@@ -16,12 +19,21 @@ public enum Value {
 	QUEEN(12),
 	KING(13);
 	
+	/**
+	 * 
+	 */
 	private int numericalValue;
 
+	/**
+	 * @param numericalValue
+	 */
 	private Value(int numericalValue) {
 		this.numericalValue = numericalValue;
 	}
 	
+	/**
+	 * @return
+	 */
 	public int getNumericalValue() {
 		return numericalValue;
 	}

@@ -1,3 +1,6 @@
+//cmd terminal accès rapide : cd eclipse-workspace/r3_04_tp1_blackjack/src/main/java
+//raccourci javadoc auto : alt shift J
+
 package blackjack.model;
 
 /**
@@ -9,7 +12,7 @@ public class BlackJackGame {
 	 * 
 	 */
 	public BlackJackGame() {
-		//VIDE POUR LE MOMENT
+		//Constructeur, VIDE POUR LE MOMENT
 	}
 	
 	/**
