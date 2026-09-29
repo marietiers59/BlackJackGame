@@ -3,15 +3,15 @@ package blackjack.model;
 /**
  * 
  */
-public class House {
+public class House extends CardOwner {
 	
 	/**
-	 * 
+	 * @param name
 	 */
-	public House() {
-		//VIDE POUR LE MOMENT
+	protected House(String name) {
+		super(name);
 	}
-	
+
 	/**
 	 * @return
 	 */

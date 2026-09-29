@@ -30,15 +30,15 @@ public class Deck {
 	/**
 	 * @param card
 	 */
-	public void add(Card card) {
-		//TODO
+	public void add(Card card) { // une carte entre, rien ne sort
+		//TODO taille deck++, carte du dessus change (value et suit), carte du dessus indice++
 	}
 	
 	/**
 	 * @return
 	 */
-	public Card withdraw() {
-		//TODO
+	public Card withdraw() { // rien n'entre, une carte sort
+		//TODO taille deck--, carte du dessus change (value et suit), carte du dessus indice--
 		return null; //changer null
 	}
 	
